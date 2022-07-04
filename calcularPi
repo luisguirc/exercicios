@@ -1,5 +1,5 @@
     public static double calcularPi(int n) {
-    // digite o codigo do metodo aqui
+    // Método em Java para aproximar pi por meio da Série de Gregory
     
         double pi = 0, a = 1, den = 1, c = 1;
         
