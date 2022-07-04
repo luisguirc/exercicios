@@ -1,0 +1,14 @@
+    public static double calcularPi(int n) {
+    // digite o codigo do metodo aqui
+    
+        double pi = 0, a = 1, den = 1, c = 1;
+        
+        while (c <= n){
+            pi = pi + a/den;
+            a = a*(-1);
+            den = den + 2;
+            c = c + 1;
+        }
+        pi = pi * 4;
+        return pi;
+    }
